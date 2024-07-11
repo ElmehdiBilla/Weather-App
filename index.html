@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We've got your location. Let's check out the latest weather updates for you">
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="dark-light-btn">
+            <img class="hidden" src="assets/moon.svg" alt="">
+            <img src="assets/sun.svg" alt="">
+        </div>
+    </div>
+    <div class="weather-container">
+        <div class="weather">
+            <section class="main">
+                <div class="temp">
+                    <img src="assets/weather.svg" alt="">
+                    <p></p>
+                </div>
+                <div class="info">
+                    <h5></h5>
+                    <p></p>
+                </div>
+            </section>
+            <section class="wind">
+                <div><img src="assets/wind.svg" alt=""></div>
+                <p></p>
+            </section>
+        </div>
+        <div class="location-container">
+            <div class="location">
+                <img src="assets/map.svg" alt="">
+                <p></p>
+            </div>
+            <div class="date">
+                <img src="assets/calendar.svg" alt="">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <div class="forecast">
+        <table>
+            <thead>
+            <tr>
+                <th>day</th>
+                <th>Temperature (High/Low)</th>
+                <th>Precipitation</th>
+                <th>Wind Speed</th>
+                <th>Weather Condition</th>
+            </tr>
+            </thead>
+            <tbody>
+            
+            </tbody>
+        </table>
+    </div>
+    <div id="map">
+        <btn class="locationBtn">
+            <img src="assets/map.svg" alt="">
+        </btn>
+    </div>
+    <div class="locationMsg">
+    </div>
+    <script src="script.js"></script>
+    <script src="leaflet/leaflet.js"></script>
+</body>
+</html>

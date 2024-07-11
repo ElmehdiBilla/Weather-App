@@ -332,9 +332,8 @@ td div img{
         grid-column: 2 / span 1;
         grid-row: 2/span 3;
         justify-content: center;
-        background-color: #ff204e;
         margin:0;
-        height:100%;
+
     }
     /* #map{
         background-color: var(--grey);

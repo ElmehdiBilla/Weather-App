@@ -121,7 +121,7 @@ const getData = (w) => {
 const setMap = (lat, lon) => {
     const mapContainer = document.querySelector('#map');
     if (!map) {
-        map = L.map('map').setView([lat, lon], 13);
+        map = L.map('map').setView([lat, lon], 15);
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
